@@ -1,13 +1,13 @@
 language: csharp
-dotnet: 5.0.100
+dotnet: 6.0.101
 mono: none
 os:
   - linux
   - osx
 
 before_install:
-  - nvm install 16.13.0
-  - nvm use 16.13.0
+  - nvm install 16.13.2
+  - nvm use 16.13.2
 
 script:
   - dotnet tool restore
